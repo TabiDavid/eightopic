@@ -1,0 +1,36 @@
+h1{
+    background-color: rgb(8, 211, 184); 
+}
+p{
+    
+    background-color: rgb(8, 211, 184);
+}
+
+body {
+  background: #009BC4;
+  
+  }
+  
+  .box {
+    background: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    
+  }
+  
+   @keyframes box {
+    0% {background-color: white; left: 0px; top: 0px; border-radius: 0 0 0 0;}
+    25% {background-color: red; left: 300px; top: 0px; border-radius: 50% 0 0 0;}
+    50% {background-color: green; left: 300px; top: 300px; border-radius: 50% 50% 0 0}
+    75% {background-color: blue; left: 0px; top: 300px; border-radius: 50% 50% 50% 0;}
+    100% {background-color: white; left: 0px; top: 0px; border-radius: 50% 50% 50% 50%;}
+  }
+
+.square{
+
+  width: 250px;
+  height: 250px;
+  background: rgba(74, 208, 226, 0.89);
+  
+}
